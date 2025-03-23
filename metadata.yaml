@@ -1,0 +1,12 @@
+name: liferestart
+desc: 人生重开模拟器
+help: |
+  【基础指令】
+  - /人生重来：开始新的人生
+  - /重开：开始新的人生（简写）
+  - /重开帮助：显示帮助信息
+  - /人生重开开：启用插件
+  - /人生重开关：禁用插件
+version: v1.0.0
+author: kterna
+repo: https://github.com/kterna/astrbot_plugin_liferestart
