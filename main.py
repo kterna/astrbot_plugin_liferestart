@@ -4,7 +4,7 @@ from .core.Life import Life
 import random
 import os
 
-@register("liferestart", "AstrBot", "人生重开模拟器", "1.1.0")
+@register("liferestart", "AstrBot", "人生重开模拟器", "1.0.1")
 class LifeRestartPlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
