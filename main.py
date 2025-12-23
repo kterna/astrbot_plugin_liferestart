@@ -138,7 +138,7 @@ class LifeRestartPlugin(Star):
             error_msg = f"发生错误：{str(e)}"
             yield event.plain_result(error_msg)
 
-    @filter.command(["人生重开开", "人生重开关"])
+    @filter.command("人生重开开", alias=["人生重开关"])
     async def handle_plugin_switch(self, event: AstrMessageEvent):
         """处理插件开关命令"""
         message = event.message_str.strip()
